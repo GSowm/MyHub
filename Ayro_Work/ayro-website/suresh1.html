@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loan Application Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Loan Application Form</h2>
+
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Enter phone number" required>
+
+      <label>Loan Type</label>
+      <select required>
+        <option value="">Select Loan Type</option>
+        <option>Home Loan</option>
+        <option>Personal Loan</option>
+        <option>Education Loan</option>
+        <option>Car Loan</option>
+      </select>
+
+      <label>Loan Amount</label>
+      <input type="number" placeholder="Enter loan amount" required>
+
+      <label>Annual Income day</label>
+      <input type="number" placeholder="Enter annual income" required>
+
+      <label>Address</label>
+      <textarea placeholder="Enter your address"></textarea>
+
+      <button type="submit" class="btn-primary">Apply Now</button>
+      <button type="reset" class="btn-warning">Reset</button>
+    </form>
+  </div>
+
+</body>
+</html>
